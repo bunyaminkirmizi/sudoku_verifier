@@ -149,7 +149,7 @@ sudoku* sudoku_read(const char* file_path){
 
 int main(){
 
-    for(int fn = 0;fn<5000;fn++){
+    for(int fn = 0;fn<12;fn++){
 	char file_path[100] = "./sudoku_problems/sudoku";
     int sudokunum = fn;
 

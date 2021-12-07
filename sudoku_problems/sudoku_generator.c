@@ -57,7 +57,7 @@ void printf_sudoku_to_file(int sudoku_number){
     s_sudoku_num = malloc( length + 1 );
     snprintf( s_sudoku_num, length + 1, "%d", sudoku_number);
 
-	strcpy(filename, "./sudoku_problems/sudoku");
+	strcpy(filename, "sudoku");
 	strcat(filename, s_sudoku_num);
 	strcat(filename,".txt");
 
@@ -87,7 +87,7 @@ int main(){
 		{2,0}
 		};
 	// printf_sudoku();
-	for(int i = 0 ;i<5000;i++){
+	for(int i = 0 ;i<10;i++){
 		for(int j = 0;j<15;j++){
 			
 			int randparameter = rand() % 3;

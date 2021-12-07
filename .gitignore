@@ -1,3 +1,4 @@
-sudoku*.txt
+# sudoku*.txt
 old
 *.out
+*.exe
